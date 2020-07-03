@@ -1,6 +1,8 @@
 # Files and directories created by pub
+.idea/
 .dart_tool/
 .packages
+
 
 # Conventional directory for build outputs
 build/
