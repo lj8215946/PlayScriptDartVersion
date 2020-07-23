@@ -34,7 +34,7 @@ class Token {
 
   @override
   String toString() {
-    return '$type:$value';
+    return 'Token{type: $type, value: $value}';
   }
 
   @override
