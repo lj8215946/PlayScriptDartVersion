@@ -11,7 +11,7 @@ enum _DfaState {
 //  Id_else2,
 //  Id_else3,
 //  Id_else4,
-  Int,
+//  Int,
   Initial,
   Id_int1,
   Id_int2,
@@ -241,7 +241,7 @@ class SimpleTokenReader implements TokenReader {
   @override
   Token peek() {
     if (_pos < _tokens.length) {
-      return _tokens[_pos++];
+      return _tokens[_pos];
     }
     return null;
   }

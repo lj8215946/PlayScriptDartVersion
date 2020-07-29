@@ -1,4 +1,4 @@
-import 'package:PlayScriptDartVersion/Lexer.dart';
+import 'package:PlayScriptDartVersion/PlayScriptLexer.dart';
 import 'package:PlayScriptDartVersion/Token.dart';
 
 /// A [Token] stream created by [Lexer] .
